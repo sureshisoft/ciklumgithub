@@ -30,6 +30,7 @@ public class SampleFile {
 	    js.executeScript("arguments[0].scrollIntoView();", ele);
 	    Thread.sleep(5000);
 	    driver.findElement(By.xpath("//div[contains(text(),'01. Discussion')]")).click();
+	    System.out.println("Working fine");
 			
 	}
 
